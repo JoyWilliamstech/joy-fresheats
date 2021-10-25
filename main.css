@@ -1,0 +1,76 @@
+.logo { width: 60px; height: 50px; 
+    max-width: 350px;
+}
+header{
+    background-color: #B0D785;
+}
+li {
+    display: inline;
+  }
+  body {background-color: whitesmoke;
+
+  }
+  .eat {
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;  
+    font-size: larger;
+  }
+  h2{font-family: 'Montserrat', sans-serif;
+    text-align: center; 
+    font-size: x-large;
+    font-size: 36px;
+    text-transform: uppercase;
+    margin: 30px;
+  }
+  h3{font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .flex-parent { 
+    display: flex; 
+    flex-direction: column; 
+  }
+  @media (min-width: 600px) {
+    .flex-parent {
+    flex-direction: row;
+    padding-left: 30px;
+    }
+  }
+.content-container {padding-left: 100px;
+}
+
+.works{ background-color:  #B0D785;
+
+}
+  /* add padding here */
+  @media (min-width: 600px) {
+    .works { background-color:#B68FBC;
+      margin: 50px;
+    }
+  }
+
+.plan-content {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 600px) {
+  .plan-content {
+  flex-direction: row;
+  }
+}
+
+footer {
+  padding: 40px;
+}
+.button {padding: 20px;
+  margin: 30px;
+background-color: #B0D785;
+}
+
+.button2:hover {
+  background-color: #B68FBC;
+  color: white;
+}
+.button1:hover {
+  background-color: #B68FBC;
+  color: white;
+}
